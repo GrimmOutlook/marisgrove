@@ -1,0 +1,30 @@
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+form {
+  background-color: #6DB33F;
+  padding: 20px 10px;
+}
+
+.bottom-banner {
+  background-color: #244595;
+  padding: 15px 0px;
+}
+
+div h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: gray;
+}
+
+form optgroup {
+  background-color: gray;
+}
+
+form h2 {
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  padding-bottom: 20px;
+}
