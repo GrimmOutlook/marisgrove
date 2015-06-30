@@ -29,7 +29,38 @@ form h2 {
   padding-bottom: 20px;
 }
 
+form label {
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  /*padding-bottom: 20px;*/
+}
+
 .glyphicon.glyphicon-circle-arrow-up {
     font-size: 175px;
     color: white;
+}
+
+.fact-green {
+  font-family: 'Archivo Black', sans-serif;
+  color: #6DB33F;
+}
+
+.fact-blue {
+  font-family: 'Archivo Black', sans-serif;
+  color: #244595;
+}
+
+.fact-orange {
+  font-family: 'Archivo Black', sans-serif;
+  color: #F27F32;
+}
+
+.fact-white {
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+.fact-gray {
+  font-family: 'Archivo Black', sans-serif;
+  color: #D3D3D3;
 }
