@@ -28,3 +28,8 @@ form h2 {
   color: white;
   padding-bottom: 20px;
 }
+
+.glyphicon.glyphicon-circle-arrow-up {
+    font-size: 175px;
+    color: white;
+}
