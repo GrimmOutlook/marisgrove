@@ -101,7 +101,7 @@
       <div class="col-md-4">
         <div class="row">
           <div class="col-md-10">
-            <form>
+            <form name="request-brochure" method="POST" action="">
               <h2 align="left">Request a Brochure</h2>
                 <div class="form-group">
                   <label for="salutation">Salutation</label>
@@ -116,19 +116,19 @@
                 </div>
                 <div class="form-group">
                   <label for="first-name">First Name</label>
-                  <input type="first-name" class="form-control" id="first-name">
+                  <input type="first-name" class="form-control" id="first-name" required/>
                 </div>
                 <div class="form-group">
                  <label for="last-name">Last Name</label>
-                  <input type="last-name" class="form-control" id="last-name">
+                  <input type="last-name" class="form-control" id="last-name" required/>
                 </div>
                 <div class="form-group">
                  <label for="phone">Home Phone</label>
-                  <input type="phone" class="form-control" id="phone">
+                  <input type="tel" class="form-control" id="phone" required />
                 </div>
                 <div class="form-group">
                   <label for="email">Email Address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1">
+                  <input type="email" class="form-control" id="exampleInputEmail1" required />
                 </div>
                 <div class="checkbox">
                   <label>

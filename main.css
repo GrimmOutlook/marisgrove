@@ -43,8 +43,8 @@ form {
   margin-bottom: 90px;
 }
 
-form optgroup {
-  color: gray;
+select option {
+  background-color: gray;
 }
 
 form h2 {
