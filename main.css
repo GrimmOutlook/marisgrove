@@ -114,7 +114,7 @@ div p {
   color: white;
 }
 
-div.h1 > p {
+.fact-white + u {
   font-family: 'Archivo Black', sans-serif;
   color: #F27F32;
 }
