@@ -133,6 +133,12 @@ div.h1 > p {
   color: #233e99;
 }
 
+.eho-logo {
+  width: 28px;
+  height: 22px;
+  margin: 0px 2px 8px 0px;
+}
+
 .footer-bottom {
   font-family: "Times New Roman", Times, sans-serif;
   color: gray;
@@ -144,7 +150,7 @@ footer {
 }
 
 .social-icon {
-  width: 25px;
-  height: 25px;
-  margin: 0 5px;
+  width: 22px;
+  height: 22px;
+  margin: 0px 5px;
 }
