@@ -20,26 +20,11 @@ div.trans-box h2 {
   -webkit-text-stroke: 1px black;
 }
 
-.social-icon {
-  width: 25px;
-  height: 25px;
-  margin: 0 5px;
-}
 
 form {
   background-color: #6DB33F;
   padding: 10px 10px 40px 10px;
   margin-bottom: 90px;
-}
-
-.bottom-banner {
-  background-color: #244595;
-  padding: 15px 0px;
-}
-
-div h1 {
-  font-family: 'Archivo Black', sans-serif;
-  color: gray;
 }
 
 form optgroup {
@@ -56,6 +41,16 @@ form label {
   font-family: 'Archivo Black', sans-serif;
   color: white;
   /*padding-bottom: 20px;*/
+}
+
+div h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: gray;
+}
+
+.bottom-banner {
+  background-color: #244595;
+  padding: 15px 0px;
 }
 
 .glyphicon.glyphicon-circle-arrow-up {
@@ -107,4 +102,10 @@ div.h1 > p {
 
 footer {
   padding: 40px 0px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
 }
