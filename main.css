@@ -1,3 +1,8 @@
+.page-header {
+
+}
+
+
 .jumbotron {
   background: url('images/mgc-jumbotron-cropped.jpg') center center;
   color: white;
@@ -19,7 +24,6 @@ div.trans-box h2 {
   font-weight: bold;
   -webkit-text-stroke: 1px black;
 }
-
 
 form {
   background-color: #6DB33F;
