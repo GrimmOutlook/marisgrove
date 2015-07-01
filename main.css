@@ -20,15 +20,15 @@
 }
 
 .trans-box {
-  background-color: #0066ff;
-  opacity: 0.40;
+  background-color: rgba(35,62,153,0.3);
+  /*opacity: 0.40;*/
 }
 
 div.trans-box h2 {
   font-family: 'Archivo Black', sans-serif;
   color: white;
   font-weight: bold;
-  -webkit-text-stroke: 1px black;
+  /*-webkit-text-stroke: 1px black;*/
 }
 
 form {
@@ -53,13 +53,23 @@ form label {
   /*padding-bottom: 20px;*/
 }
 
+.sales-black {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight: bold;
+}
+
+.sales-gray {
+  font-family: "Times New Roman", Times, sans-serif;
+  color: gray;
+}
+
 div h1 {
   font-family: 'Archivo Black', sans-serif;
   color: gray;
 }
 
 .bottom-banner {
-  background-color: #244595;
+  background-color: #233e99;
   padding: 15px 0px;
 }
 
@@ -70,13 +80,19 @@ div h1 {
 }
 
 .fact-green {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight: bold;
   color: #6DB33F;
 }
 
 .fact-blue {
-  font-family: 'Archivo Black', sans-serif;
-  color: #244595;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight: bold;
+  color: #233e99;
+}
+
+div p {
+  font-family: "Times New Roman", Times, sans-serif;
 }
 
 /*.fact-orange {
@@ -95,18 +111,22 @@ div.h1 > p {
 }
 
 .fact-gray {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Times New Roman", Times, sans-serif;
   color: #D3D3D3;
+}
+
+.footer-top p {
+  font-family: "Times New Roman", Times, sans-serif;
 }
 
 .footer-middle a {
-  /*font-family: 'NEED ANOTHER FONT HERE', sans-serif;*/
-  color: #244595;
+  font-family: "Times New Roman", Times, sans-serif;
+  color: #233e99;
 }
 
 .footer-bottom {
-  /*font-family: 'NEED ANOTHER FONT HERE', sans-serif;*/
-  color: #D3D3D3;
+  font-family: "Times New Roman", Times, sans-serif;
+  color: gray;
   margin-top: 15px;
 }
 
