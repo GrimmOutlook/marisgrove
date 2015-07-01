@@ -63,6 +63,16 @@ form label {
   padding-bottom: 25px;
 }
 
+.vert-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vert-align form {
+  display: flex;
+  align-items: center;
+}
+
 .sales-black {
   font-family: "Times New Roman", Times, sans-serif;
   font-weight: bold;
