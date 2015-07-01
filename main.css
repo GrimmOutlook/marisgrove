@@ -1,3 +1,12 @@
+.jumbotron {
+  background-image: url('images/mgc-jumbotron-cropped.jpg');
+  color: white;
+  background-size: cover;
+  height: 908px;
+  margin-top: 0px;
+}
+
+
 .social-icon {
   width: 25px;
   height: 25px;
@@ -63,4 +72,9 @@ form label {
 .fact-gray {
   font-family: 'Archivo Black', sans-serif;
   color: #D3D3D3;
+}
+
+.footer-middle a {
+  /*font-family: 'Archivo Black', sans-serif;*/
+  color: #244595;
 }
