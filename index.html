@@ -10,10 +10,11 @@
         <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-  <div class="container-fluid">
+  <!-- <div class="container-fluid"> -->
     <!-- ************* HEADER - LOGO + PHONE NUMBER ************** -->
 
     <header class="page-header">
+     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-2">
           <a href="index.html" id="logo">
@@ -21,17 +22,18 @@
           </a>
         </div>
         <div class="col-md-4">
-          <h2 class="phone">1-877-737-4107</h2>
+          <h2 class="phone hidden-sm hidden-xs">1-877-737-4107</h2>
         </div>
       </div>
+     </div>
     </header>
 
     <!-- ************* PHOTO & TRANSPARENT BOX + TEXT ************** -->
 
-    <div class="row">
-      <div class="col-md-12">
+    <!-- <div class="row"> -->
+      <!-- <div class="col-md-12"> -->
         <div class="jumbotron">
-          <div class="container-fluid">
+          <div class="container">
             <div class="row">
               <div class="col-md-3 col-md-offset-8 trans-box">
                 <h2 class="text-center">Discover carefree retirement living at Maris Grove.</h2>
@@ -39,13 +41,14 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
 
 
 
 <!-- ************  MAIN COPY AREA OF FACTS  ************ -->
   <!-- <div class="container-fluid"> -->
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <div class="col-md-8 col-md-offset-2">
@@ -124,7 +127,7 @@
                 </div>
                 <div class="form-group">
                  <label for="phone">Home Phone</label>
-                  <input type="tel" class="form-control" id="phone" required />
+                  <input type="tel" class="form-control" id="phone" pattern="^\d{3}-\d{3}-\d{4}$" title="format: xxx-xxx-xxxx"required />
                 </div>
                 <div class="form-group">
                   <label for="email">Email Address</label>
@@ -239,26 +242,26 @@
                     </optgroup>
                   </select>
                 </div>
-                <button type="button" class="btn btn-warning">Submit</button><br>
+                <button type="submit" class="btn btn-warning">Submit</button><br>
               </form>
             </div>
           </div>
         </div>
     </div>
+  </div>
   <!-- </div> -->
 
 
 
 
     <!-- ************  BLUE BOTTOM BANNER  ************ -->
-
       <div class="row bottom-banner">
         <div class="col-md-7 col-md-offset-2">
           <h1 class="fact-white"><u class="fact-orange">FACT:</u> The best way to learn more is to experience Maris Grove for yourself!</h1>
           <h2 class="fact-gray"><em>Call <strong class="fact-white">1-877-737-4107</strong> today or fill out the form above to request a brochure.</em></h2>
         </div>
         <div class="col-md-3 fact-white">
-          <span class="glyphicon glyphicon-circle-arrow-up" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-circle-arrow-up hidden-sm hidden-xs" aria-hidden="true"></span>
         </div>
       </div>
 
@@ -306,6 +309,6 @@
               </div>
           </div>
         </footer>
-    </div>
+    <!-- </div> -->
   </body>
 </html>
