@@ -67,6 +67,11 @@ form label {
   color: gray;
 }
 
+hr {
+  width: 80%;
+  height: 12px;
+}
+
 div h1 {
   font-family: 'Archivo Black', sans-serif;
   color: gray;
