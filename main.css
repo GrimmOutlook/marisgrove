@@ -1,6 +1,11 @@
 .page-header {
   margin-bottom: 0px;
+  /*height: 50px;*/
 }
+
+/*#logo {
+  background: url('images/el_logo_mgc_2c.png') left center no-repeat;
+}*/
 
 .phone {
   font-family: "Times New Roman", Times, sans-serif;
@@ -16,12 +21,13 @@
   height: 100%;
   background-size: cover;
   /*margin-top: 0px;*/
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .trans-box {
   background-color: rgba(35,62,153,0.3);
-  /*opacity: 0.40;*/
+  position: static;
+  vertical-align: top;
 }
 
 div.trans-box h2 {
@@ -92,31 +98,29 @@ div h1 {
   font-family: "Times New Roman", Times, sans-serif;
   font-weight: bold;
   color: #6DB33F;
+  vertical-align: top;
+  margin-top: 0px;
 }
 
 .fact-blue {
   font-family: "Times New Roman", Times, sans-serif;
   font-weight: bold;
   color: #233e99;
+  vertical-align: top;
 }
 
 div p {
   font-family: "Times New Roman", Times, sans-serif;
 }
 
-/*.fact-orange {
+.fact-orange {
   font-family: 'Archivo Black', sans-serif;
   color: #F27F32;
-}*/
+}
 
 .fact-white {
   font-family: 'Archivo Black', sans-serif;
   color: white;
-}
-
-.fact-white + u {
-  font-family: 'Archivo Black', sans-serif;
-  color: #F27F32;
 }
 
 .fact-gray {
