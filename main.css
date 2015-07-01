@@ -53,6 +53,10 @@ form label {
   /*padding-bottom: 20px;*/
 }
 
+.fact-area {
+  padding-bottom: 25px;
+}
+
 .sales-black {
   font-family: "Times New Roman", Times, sans-serif;
   font-weight: bold;
@@ -70,7 +74,7 @@ div h1 {
 
 .bottom-banner {
   background-color: #233e99;
-  padding: 15px 0px;
+  padding: 15px 0px 35px 0px;
 }
 
 .glyphicon.glyphicon-circle-arrow-up {
