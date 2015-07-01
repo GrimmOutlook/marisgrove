@@ -2,6 +2,12 @@
   margin-bottom: 0px;
 }
 
+.phone {
+  font-family: "Times New Roman", Times, sans-serif;
+  color: gray;
+  font-size: 1.75em;
+  /*line-height: 0.5em;*/
+}
 
 .jumbotron {
   background: url('images/mgc-jumbotron-cropped.jpg') center center;
